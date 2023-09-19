@@ -1,0 +1,48 @@
+/* Styles de l'en-tête */
+header {
+    background-image: linear-gradient(to right, #448AFF, #18FFFF);
+    color: white;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex; /* To align the logo and text horizontally */
+    align-items: center; /* To vertically align the logo and text */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin-right: 10px; /* Add spacing between the image and text */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF4081;
+    border-bottom: 2px solid #FF4081;
+}
