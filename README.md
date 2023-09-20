@@ -7,7 +7,7 @@ Bienvenue dans l'application web du Garage V. Parrot. Cette application a été 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre système :
 
 - [Python](https://www.python.org/downloads/windows/) (version 3.6 ou supérieure)
-- [MySQL](https://dev.mysql.com/downloads/installer/) (ou un autre système de gestion de base de données)
+- [MySQL](https://dev.mysql.com/downloads/installer/)
 
 ## Installation
 
