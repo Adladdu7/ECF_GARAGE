@@ -225,7 +225,7 @@ def login():
                 print('Connexion échoué: Mauvais mot de passe')
                 return jsonify({"success": False, "message": "Mauvais mot de passe."})
         else:
-            # L'utilisateur n'a pas été trouver dans la b
+            # L'utilisateur n'a pas été trouver dans la base de données
             print("Connexion échoué: L'utilisateur n'a pas été retrouvé ")
             return jsonify({"success": False, "message": "L'utilisateur n'a pas été retrouvé."})
 
