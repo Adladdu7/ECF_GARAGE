@@ -44,6 +44,8 @@ pip install -r requirements.txt
 
 9. Accédez à l'application depuis votre navigateur en vous rendant à l'adresse `http://localhost:5000`.
 
+10. Afin d'initialiser le Super Admin vous pourrez accéder à l'adresse `http://localhost:5000/install_super_admin` vous pourrez ainsi créer les utilisateur sans avoir a saisir des requête sql 
+    
 ## Utilisation
 
 L'application est désormais en cours d'exécution sur votre machine Windows. Vous pouvez explorer les fonctionnalités suivantes :
